@@ -3,7 +3,7 @@
 Todo New Tab is a browser extension that replaces your new tab page with a simple, elegant todo list. It allows you to manage your daily tasks efficiently while providing a clean, distraction-free interface.
 
 
-### LINK TO THE EXTENSION: [Todo New Tab](https://addons.mozilla.org/en-US/firefox/addon/new-tab-todo-app/)
+### LINK TO THE EXTENSION: [New Tab Todo](https://addons.mozilla.org/en-US/firefox/addon/todos-new-tab/)
 
 ## Features
 
