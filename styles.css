@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    min-height: 100vh;
+    height: auto;
+    background-color: #d2c8d2;
+    background-image: linear-gradient(0deg, #d2c8d2 0%, #d7e6e6 19%, #ffffff 39%, #ffffff 60%, #ffffff 80%, #cdddde 100%);
+}
+
+body {
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    color: #333;
+}
+
+.app {
+    padding: 0 0 2em;
+    width: 600px;
+    margin: auto;
+}
+
+.DateTime {
+    margin: 40px 0;
+    color: #333;
+}
+
+.DateTime__Date {
+    display: block;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.heading {
+    display: block;
+    font-size: 22px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.DateTime__Time {
+    display: block;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.TextBox {
+    height: 50px;
+    border: 0;
+    width: 100%;
+    background: #fafafa;
+    border: 1px solid #ddd;
+    color: #333;
+    outline: none;
+    font-size: 15px;
+    padding: 0 15px;
+    font-family: inherit;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.TextBox::placeholder {
+    color: rgba(0,0,0,0.3);
+}
+
+.TextBox:focus {
+    border: 1px solid rgba(210, 203, 185, 0.5);
+}
+
+.Todolist {
+    list-style-type: none;
+    padding: 0;
+}
+
+.Todo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 50px;
+    border: 1px solid #eee;
+    border-top: 0;
+    color: #333;
+    background-color: #fff;
+    cursor: pointer;
+    position: relative;
+}
+
+.Todo__Check {
+    padding: 0 1em;
+    width: 50px;
+    height: 50px;
+    line-height: 3.7;
+}
+
+.Todo__Check i {
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.Todo__Task {
+    flex: 1;
+    padding: 13px 1em 13px 0;
+    line-height: 1.5;
+}
+
+.Todo__Delete, .Todo__Edit {
+    border: none;
+    background: none;
+    margin: 0 1em;
+    font-size: 14px;
+    color: #ccc;
+    display: none;
+}
+
+.Todo:hover {
+    background: #fafafa;
+}
+
+.Todo:hover .Todo__Delete,
+.Todo:hover .Todo__Edit {
+    display: block;
+}
+
+.Todo--checked .Todo__Check i {
+    background: #27ae60;
+    border: 2px solid #27ae60;
+}
+
+.Todo--checked .Todo__Task {
+    text-decoration: line-through;
+    color: #ccc !important;
+}

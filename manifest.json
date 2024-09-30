@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Todo New Tab",
+  "version": "1.0",
+  "description": "A simple todo app that replaces the new tab page. You can add your tasks for the day and mark them as completed.",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "new-tab-todo-app"
+    }
+  }
+}
