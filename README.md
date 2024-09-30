@@ -10,9 +10,6 @@ Todo New Tab is a browser extension that replaces your new tab page with a simpl
 - Replace new tab page with a todo list
 - Add, edit, and delete tasks
 - Mark tasks as completed
-- Persistent storage of tasks
-- Real-time date and time display
-- Responsive design
 
 ## Installation
 
@@ -59,3 +56,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
+
+
+_Note: This extension was inspired by [this](https://chromewebstore.google.com/detail/todo-tab/ljkjodkdilmmlaiphehiceeblnnndhnd?hl=en)._
