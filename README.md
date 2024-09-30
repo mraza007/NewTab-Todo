@@ -5,6 +5,11 @@ Todo New Tab is a browser extension that replaces your new tab page with a simpl
 
 ### LINK TO THE EXTENSION: [New Tab Todo](https://addons.mozilla.org/en-US/firefox/addon/todos-new-tab/)
 
+
+
+![image](https://i.ibb.co/HNYSzHN/Screenshot-2024-09-30-at-5-14-13-PM.png)
+
+
 ## Features
 
 - Replace new tab page with a todo list
